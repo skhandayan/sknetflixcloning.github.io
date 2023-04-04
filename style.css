@@ -42,6 +42,7 @@ body {
 .row {
     color: white;
     margin-left: 20px;
+    margin-top: 20px;
 }
 
 .banner {
@@ -111,18 +112,62 @@ body {
     object-fit: contain;
 }
 
-.nav {
+.navs {
     position: fixed;
     top: 0;
-    width: 100%;
-    display: flex;
+    width: 100%;  
     justify-content: space-between;
     padding: 20px;
     z-index: 1;
     transition-timing-function: ease-in;
-    transition: all 0.5s;
+    transition: all 0.2s;
 }
 
 .nav_black {
     background-color: #111;
+    opacity: 90%;
+    box-shadow: rgb(42, 42, 42);
+}
+
+.search_bar {
+    width: 100%;
+    max-width: 700px;
+
+}
+
+.btn {
+    color: #d81515;
+    border-color: #111;
+    
+}
+
+.btn:hover {
+    color: black;
+    background: rgb(255, 0, 0);;
+    opacity: 65%;
+    border-color: black;
+}
+
+.form-control {
+    opacity: 100%;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255);
+    opacity: 100%;
+}
+
+.nav-link:hover {
+    color: rgb(255, 0, 0);
+    opacity: 65%;
+}
+
+.navbar-toggler:hover {
+    background: rgb(255, 0, 0);;
+    opacity: 65%;
+}
+
+
+.dropdown-item:hover {
+    color: #d81515;
 }
